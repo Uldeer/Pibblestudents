@@ -1,0 +1,28 @@
+h1 {
+font-family: "Segoe Print";
+}
+
+#desc {
+font-size: 1rem;
+font-weight: 400;
+}
+
+#pibbles {
+height: auto;
+width: 300px;
+border: solid 1px;
+border-radius: 5px;
+}
+
+#pibbles-song {
+height: auto;
+width: 300px;
+}
+
+body {
+font-family: "Segoe UI";
+}
+
+h2, h3, h4, h5, h6 {
+font-size: 1.125rem;
+}

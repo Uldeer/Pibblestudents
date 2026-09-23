@@ -3,19 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pibblestudents MVZ FESC 🐾🐇</title>
+<title>Pibblestudents MVZ FESC</title>
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <header>
 <h1>Bienvenido a Pibblestudents 🐾🐇</h1>
-<p>Proyecto enfocado en facilitar el acceso a apuntes de estudio de las materias de Medicina Veterinaria y Zootecnia de la Facultad de Estudios Superiores Cuautitlán de la UNAM</p>
-<img src="pibbles.png" height="300" alt="Pibbles">
+<p id="desc">Proyecto enfocado en facilitar el acceso a apuntes de estudio de las materias de Medicina Veterinaria y Zootecnia de la Facultad de Estudios Superiores Cuautitlán de la UNAM</p>
+<img id="pibbles" src="pibbles.png" alt="Pibbles"><br>
+<audio id="pibbles-song" controls>
+<source src="pibbles.mp3" type="audio/mpeg">
+</audio>
 </header>
 <main>
 <h2>Apuntes disponibles:</h2>
-<label for="buscar-materia"></label>
-<input id="buscar-materia" type="text" placeholder="Buscar materia">
+<form>
+<label for="buscar-materia">Buscar materia: </label>
+<input id="buscar-materia" type="text">
 <button>Buscar</button>
+</form>
 <ul>
 <li><button>Biología celular</button></li>
 <li><button>Bioquímica</button></li>
