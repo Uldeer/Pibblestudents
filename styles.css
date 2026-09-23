@@ -1,3 +1,7 @@
+html {
+
+}
+
 h1 {
 font-family: "Segoe Print";
 }
@@ -15,8 +19,10 @@ border-radius: 5px;
 }
 
 #pibbles-song {
-height: auto;
+display: block;
 width: 300px;
+max-width: 100%;
+height: 54px;
 }
 
 body {
