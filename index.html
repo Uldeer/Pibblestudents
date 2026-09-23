@@ -11,10 +11,17 @@
 <header>
 <h1>Bienvenido a Pibblestudents 🐾🐇</h1>
 <p id="desc">Proyecto enfocado en facilitar el acceso a apuntes de estudio de las materias de Medicina Veterinaria y Zootecnia de la Facultad de Estudios Superiores Cuautitlán de la UNAM</p>
-<img id="pibbles" src="pibbles.png" alt="Pibbles"><br>
-<audio id="pibbles-song" controls>
+<audio id="pibbles-song">
 <source src="pibbles.mp3" type="audio/mpeg">
 </audio>
+<button
+id="boton-pibbles"
+type="button"
+aria-label="Reproducir la canción de Pibbles"
+onclick="document.getElementById('pibbles-song').play()"
+>
+  <img id="pibbles" src="pibbles.png" alt="Pibbles">
+</button>
 </header>
 <main>
 <h2>Apuntes disponibles:</h2>
