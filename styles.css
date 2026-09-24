@@ -8,6 +8,20 @@ font-size: 1rem;
 font-weight: 400;
 }
 
+#favicon {
+width: 2em;
+height: 2em;
+objetct-fit: contain;
+vertical-align: middle;
+}
+
+#fesc-mvz {
+width: 2em;
+height: 2em;
+objetct-fit: contain;
+vertical-align: middle;
+}
+
 #pibbles {
 height: auto;
 width: 200px;
